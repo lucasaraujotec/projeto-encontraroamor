@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Area do HEADER*/
+header.topo{
+    background-color: #000000;
+    height: 140px;
+    
+}
+
+header.topo > h1{
+    color: #ffffff;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4vw;
+    padding-top: 40px;
+    font-family: 'Rowdies', cursive;
+}
+
+header.topo > p{
+    color: #ffffff;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9em;
+    margin-top: 5px;    
+}
+
+
+/* Área do Section*/
+
+section{
+    font-family: 'Redressed', cursive;
+}
+
+.secaotexto1{
+    background-color: white;
+    height: 300px;
+    font-weight: bold;
+    line-height: 1.3;
+    font-size: 1.2em;
+}
+
+div.areatexto1{
+    padding: 40px 0px 0px 30px;
+    
+}
+
+.img-parallax{
+    position: relative;
+    height: 350px;
+    background-color: #000000;
+    background-image: url(pacote-d012/imagens/background001.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div.areatexto2{
+    font-size: 1.2em;
+    color: #ffffff;
+    padding: 10px;
+    font-weight: normal;
+    background-color:rgba(58, 51, 15, 0.397);
+    width: 220px;
+    position: absolute;
+    left: 20px;
+    top: 50px;
+}
+
+.secaotexto3{
+    background-color: #ffffff;
+    height: 370px;
+}
+
+.areatexto3{
+    font-size: 1.2em;
+    color: #000000;
+    padding: 50px 0px 20px 30px;
+    font-weight: bold;
+}
+
+#img-parallax-2{
+    position: relative;
+    height: 350px;
+    background-color: #000000;
+    background-image: url(pacote-d012/imagens/background002.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.areatexto4{
+    position: absolute;
+    left: 20px;
+    top: 70px; 
+    font-size: 1.2em;
+    color: #ffffff;
+    padding: 10px;
+    font-weight: normal;
+    background-color: #00000086;
+}
+
+/* Área do Footer */
+
+footer{
+    background-color: black;
+    padding: 5px;
+}
+
+footer > p{
+    color: #ffffff;
+    text-align: center;
+}
+
+footer > p > a{
+    text-decoration: none;
+    color: white;
+}
+
+footer > p > a:hover{
+    text-decoration: underline;
+}
